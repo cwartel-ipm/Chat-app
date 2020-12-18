@@ -1,0 +1,45 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "node js , express js, websocket, react js, chat app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node -- server/index.js"
+  },
+  "dependencies": {
+    "@babel/node": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.2.3",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "7.2.3",
+    "@babel/runtime": "7.2.0",
+    "css-loader": "2.1.0",
+    "express": "4.16.4",
+    "mongodb": "3.1.10",
+    "nodemon": "1.18.9",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-hot-loader": "4.6.3",
+    "react-redux": "6.0.0",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0",
+    "sockette": "2.0.5",
+    "style-loader": "0.23.1",
+    "webpack": "4.28.4",
+    "webpack-dev-middleware": "3.5.0",
+    "webpack-hot-middleware": "2.24.3",
+    "ws": "6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9",
+    "webpack": "4.28.4",
+    "webpack-cli": "3.2.1",
+    "webpack-dev-middleware": "3.5.0",
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
+    "@babel/preset-react": "latest",
+    "babel-loader": "8.0.4"
+  },
+  "keywords": []
+}
